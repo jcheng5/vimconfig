@@ -1,7 +1,9 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
+set tabstop=4
+
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
 " let Vundle manage Vundle
@@ -12,6 +14,7 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'majutsushi/tagbar'
+Bundle 'rking/ag.vim'
 
 " Github repos of the user 'vim-scripts'
 " => can omit the username part
