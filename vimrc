@@ -1,5 +1,8 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
+set tabstop=4
+
+set wildignore+=**/_vendor/*,**/dependencies/*
 
 set tabstop=4
 
@@ -31,4 +34,9 @@ filetype plugin on     " required!
 :set ruler laststatus=2 showcmd showmode number
 :set incsearch ignorecase smartcase hlsearch
 :set shortmess+=I
+
+let g:go_fmt_command = "goimports"
+
+Plugin 'rking/ag.vim'
+Plugin 'fatih/vim-go'
 
