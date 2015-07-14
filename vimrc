@@ -37,6 +37,5 @@ filetype plugin on     " required!
 
 let g:go_fmt_command = "goimports"
 
-Plugin 'rking/ag.vim'
 Plugin 'fatih/vim-go'
 
